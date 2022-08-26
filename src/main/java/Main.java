@@ -35,5 +35,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        response.close();
+        httpClient.close();
     }
 }
